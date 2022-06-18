@@ -1,7 +1,6 @@
 ---
 title: About
-permalink: /about/
-layout: default
+permalink: /
 toc: true
 ---
 

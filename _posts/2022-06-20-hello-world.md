@@ -1,7 +1,7 @@
 ---
 title:  "Hello World"
-categories: 
-tags:
+categories: introduction
+tags: hello first
 ---
 
 Hello world!
