@@ -69,3 +69,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# For finding posts by categories
+category_archive:
+  type: liquid
+  path: /categories/
+
+# For finding posts by tags
+tag_archive:
+  type: liquid
+  path: /tags/
