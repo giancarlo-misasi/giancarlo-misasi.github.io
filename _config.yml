@@ -1,30 +1,21 @@
-# Basic configuration
+# Site configuration
+theme: jekyll-theme-tactile
 title: Giancarlo Misasi
 subtitle: SDE III @ Amazon
 description: Software Engineer and pasta making enthusiast.
 url: https://giancarlo-misasi.github.io
 domain: giancarlo-misasi.github.io
+locale: en-CA
 
-# GitHub configuration
-github: [metadata]
-github_username: giancarlo-misasi
-
-# Plugins
-plugins:
-  - jekyll-include-cache
-  - jekyll-feed
-
-# Theme configuration
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Author
-author:
-  name: "Giancarlo Misasi"
+# Header configuration
+header:
   avatar: "/assets/images/avatar_giancarlo_misasi.jpg"
+  author: "Giancarlo Misasi"
   bio: "Software Engineer and pasta making enthusiast."
-  location: "North Vancouver, BC, Canada"
   links:
+    - label: "North Vancouver, BC, Canada"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://goo.gl/maps/L6U4ecdbBuNpZym66"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/giancarlo-misasi"
@@ -32,7 +23,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/giancarlo-misasi?tab=repositories"
 
-# Site Footer
+# Footer configuration
 footer:
   links:
     - label: "LinkedIn"
@@ -41,38 +32,19 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/giancarlo-misasi?tab=repositories"
-    - label: "Sitemap"
-      icon: "fas fa-map"
-      url: "/sitemap/"
+    - label: "Feed"
+      icon: "fa-solid fa-rss"
+      url: "/feed.xml"
 
-# Reading Files
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+
+# Non-standard directories
 include:
   - _pages
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# For finding posts by categories
-category_archive:
-  type: liquid
-  path: /categories/
-
-# For finding posts by tags
-tag_archive:
-  type: liquid
-  path: /tags/
+# GitHub configuration
+github: [metadata]
+github_username: giancarlo-misasi
