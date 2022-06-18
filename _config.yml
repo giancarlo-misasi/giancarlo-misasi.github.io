@@ -41,9 +41,7 @@ footer:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/giancarlo-misasi"
 
-# Defaults
-# https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_config.yml#L205
-
 # Reading Files
 include:
   - _pages
+  - _posts

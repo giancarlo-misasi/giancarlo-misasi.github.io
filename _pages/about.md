@@ -1,9 +1,9 @@
 ---
 title: About
 permalink: /
+layout: single
+author_profile: true
 toc: true
 ---
-
-# {{ page.title }}
 
 TODO: Write stuff about me...fun
