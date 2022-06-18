@@ -1,7 +1,11 @@
 ---
-title:  "Hello World"
-categories: introduction
-tags: hello first
+title:  Hello
+categories:
+    - introduction
+tags:
+    - hello
+    - world
+    - first
 ---
 
 Hello world!
