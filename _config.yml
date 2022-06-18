@@ -25,22 +25,28 @@ author:
   bio: "Software Engineer and pasta making enthusiast."
   location: "North Vancouver, BC, Canada"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/giancarlo-misasi?tab=repositories"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/giancarlo-misasi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/giancarlo-misasi?tab=repositories"
 
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/giancarlo-misasi?tab=repositories"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/giancarlo-misasi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/giancarlo-misasi?tab=repositories"
+    - label: "Sitemap"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "/sitemap/"
+    - label: "RSS Feed"
+      icon: "fab fa-fw fa-rss"
+      url: "/feed.xml"
 
 # Reading Files
 include:
