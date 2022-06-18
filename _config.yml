@@ -42,11 +42,8 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/giancarlo-misasi?tab=repositories"
     - label: "Sitemap"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fas fa-map"
       url: "/sitemap/"
-    - label: "RSS Feed"
-      icon: "fab fa-fw fa-rss"
-      url: "/feed.xml"
 
 # Reading Files
 include:
