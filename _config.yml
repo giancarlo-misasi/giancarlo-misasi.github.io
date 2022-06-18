@@ -1,8 +1,7 @@
 # Site configuration
 theme: jekyll-theme-tactile
 title: Giancarlo Misasi
-subtitle: SDE III @ Amazon
-description: Software Engineer and pasta making enthusiast.
+# description: Software Engineer and pasta making enthusiast.
 url: https://giancarlo-misasi.github.io
 domain: giancarlo-misasi.github.io
 locale: en-CA
@@ -11,13 +10,14 @@ locale: en-CA
 header:
   avatar: "/assets/images/avatar_giancarlo_misasi.jpg"
   author: "Giancarlo Misasi"
-  bio: "Software Engineer and pasta making enthusiast."
+  bio: "Software Engineer"
+  fun: "pasta making enthusiast"
   links:
     - label: "North Vancouver, BC, Canada"
       icon: "fas fa-fw fa-map-marker-alt"
       url: "https://goo.gl/maps/L6U4ecdbBuNpZym66"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fa-brands fa-linkedin"
       url: "https://linkedin.com/in/giancarlo-misasi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -27,7 +27,7 @@ header:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fa-brands fa-linkedin"
       url: "https://linkedin.com/in/giancarlo-misasi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -41,10 +41,11 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
 
-# Non-standard directories
-include:
-  - _pages
-
 # GitHub configuration
 github: [metadata]
 github_username: giancarlo-misasi
+
+# Collections
+collections:
+  - home
+  - pages

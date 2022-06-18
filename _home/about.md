@@ -1,6 +1,7 @@
 ---
-permalink: /
-layout: default
+id: about
+title: About Me
+layout: section
 ---
 
 # About Me
