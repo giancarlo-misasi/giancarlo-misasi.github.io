@@ -43,3 +43,7 @@ footer:
 
 # Defaults
 # https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_config.yml#L205
+
+# Reading Files
+include:
+  - _pages
