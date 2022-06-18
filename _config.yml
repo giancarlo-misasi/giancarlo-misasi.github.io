@@ -1,6 +1,6 @@
 # Basic configuration
 title: Giancarlo Misasi
-description: Software Engineer and casual tinkerer
+description: Software Engineer and pasta making enthusiast.
 url: https://giancarlo-misasi.github.io
 domain: giancarlo-misasi.github.io
 
@@ -20,8 +20,8 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Author
 author:
   name: "Giancarlo Misasi"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
+  avatar: "/assets/images/avatar_giancarlo_misasi.jpg"
+  bio: "Software Engineer and pasta making enthusiast."
   location: "North Vancouver, BC, Canada"
   links:
     - label: "GitHub"
