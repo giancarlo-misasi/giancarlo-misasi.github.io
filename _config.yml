@@ -29,7 +29,7 @@ author:
       url: "https://github.com/giancarlo-misasi?tab=repositories"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "www.linkedin.com/in/giancarlo-misasi"
+      url: "https://linkedin.com/in/giancarlo-misasi"
 
 # Site Footer
 footer:
@@ -39,7 +39,7 @@ footer:
       url: "https://github.com/giancarlo-misasi?tab=repositories"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "www.linkedin.com/in/giancarlo-misasi"
+      url: "https://linkedin.com/in/giancarlo-misasi"
 
 # Defaults
 # https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_config.yml#L205
