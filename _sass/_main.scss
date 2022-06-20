@@ -1,16 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo:900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-#particles-js {
-    display: flex;
+html, body, div, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+.splash {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: bottom;
     background-color: #1a222c;
-    min-height: 100vh;
-    .particles-js-canvas-el {
-        height: 100vh !important;
-    }
+    background-image: url('/assets/images/splash.jpg');
+}
+
+.splash canvas {
+    display: flex;
+    opacity: 0.35;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+#splash {
+    // display: flex;
+
+    // min-height: 100vh;
+    // .particles-js-canvas-el {
+    //     height: 100vh !important;
+    // }
 }
 
 body {
