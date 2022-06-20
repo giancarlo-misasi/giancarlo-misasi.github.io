@@ -1,5 +1,5 @@
-<footer class="container footer">
-  <div class="row links-container">
+<footer class="footer">
+  <div class="links-container">
     {% if site.footer.links %}
     {% for link in site.footer.links %}
     {% if link.label and link.url %}
@@ -10,10 +10,8 @@
     {% endfor %}
     {% endif %}
   </div>
-  <div class="row copyright">
-    <p>
-      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-      Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
-    </p>
+  <div class="copyright">
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+    Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
   </div>
 </footer>
