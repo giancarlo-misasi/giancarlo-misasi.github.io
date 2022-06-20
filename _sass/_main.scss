@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 
 body {
     background-color: #272822;
@@ -82,8 +84,9 @@ a:hover {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 900;
+        font-family: 'Indie Flower', 'Helvetica Neue', Helvetica, Arial, serif;
         text-transform: uppercase;
     }
 
