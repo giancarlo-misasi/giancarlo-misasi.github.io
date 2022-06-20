@@ -1,17 +1,25 @@
 # Site configuration
 theme: jekyll-theme-tactile
 title: Giancarlo Misasi
-# description: Software Engineer and pasta making enthusiast.
+description: Software Engineer with over 10 years experience building cool things.
 url: https://giancarlo-misasi.github.io
 domain: giancarlo-misasi.github.io
 locale: en-CA
 
-# Header configuration
-header:
+# GitHub configuration
+github: [metadata]
+github_username: giancarlo-misasi
+
+# Sass configuration
+sass:
+    style: compressed
+
+# Data
+giancarlo:
   avatar: "/assets/images/avatar_giancarlo_misasi.jpg"
-  author: "Giancarlo Misasi"
-  bio: "Software Development Engineer"
-  location: "North Vancouver, BC, Canada"
+  name: Giancarlo Misasi
+  title: Software Development Engineer
+  location: North Vancouver, BC, Canada
   links:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
@@ -20,15 +28,8 @@ header:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/giancarlo-misasi?tab=repositories"
 
-# Footer configuration
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
-      url: "https://linkedin.com/in/giancarlo-misasi"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/giancarlo-misasi?tab=repositories"
     - label: "Feed"
       icon: "fa-solid fa-rss"
       url: "/feed.xml"
@@ -37,7 +38,3 @@ footer:
 plugins:
   - jekyll-include-cache
   - jekyll-feed
-
-# GitHub configuration
-github: [metadata]
-github_username: giancarlo-misasi

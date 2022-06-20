@@ -1,0 +1,6 @@
+<a class="link" href="{{ include.link.url }}" rel="nofollow noopener noreferrer">
+  <i class="{{ include.link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+  {% if include.show_label %}
+    {{ include.link.label }}
+  {% endif %}
+</a>

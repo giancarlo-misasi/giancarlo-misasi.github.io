@@ -1,14 +1,7 @@
 <footer class="footer">
   <div class="links-container">
-    {% if site.footer.links %}
-    {% for link in site.footer.links %}
-    {% if link.label and link.url %}
-    <a class="link" href="{{ link.url }}" rel="nofollow noopener noreferrer">
-      <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}
-    </a>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+    {% include links.html show_label=true links=site.giancarlo.links %}
+    {% include links.html show_label=true links=site.footer.links %}
   </div>
   <div class="copyright">
     &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.

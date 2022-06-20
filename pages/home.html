@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: default
 permalink: /
 ---
@@ -6,24 +7,12 @@ permalink: /
 <div class="splash">
     <canvas id="splash"></canvas>
     <div class="author">
-        <h1>{{ site.header.author }}</h1>
-        <h2>{{ site.header.bio }}</h2>
-        <h3>
-            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
-            {{ site.header.location }}
-        </h3>
-        <!-- fas fa-fw fa-map-marker-alt -->
+        <!-- How can I use &nbsp; in Jekyll? -->
+        <h1><!--{{ site.giancarlo.name }} --> Giancarlo&nbsp;Misasi</h1>
+        <h2><!--{{ site.giancarlo.title }} --> Software&nbsp;Development&nbsp;Engineer</h2>
+        <h3>{{ site.giancarlo.location }}</h3>
         <div class="links-container">
-            {% if site.header.links %}
-            {% for link in site.header.links %}
-            {% if link.label and link.url %}
-            <a class="link" href="{{ link.url }}" rel="nofollow noopener noreferrer">
-                <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
-                <!-- {{ link.label }} -->
-            </a>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
+            {% include links.html show_label=false links=site.giancarlo.links %}
         </div>
     </div>
     <a class="down" href="#about" data-scroll="">
