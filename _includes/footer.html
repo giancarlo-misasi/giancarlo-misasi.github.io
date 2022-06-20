@@ -1,0 +1,19 @@
+<footer class="container footer">
+  <div class="row links-container">
+    {% if site.footer.links %}
+    {% for link in site.footer.links %}
+    {% if link.label and link.url %}
+    <a class="link" href="{{ link.url }}" rel="nofollow noopener noreferrer">
+      <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}
+    </a>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+  </div>
+  <div class="row copyright">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+      Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
+    </p>
+  </div>
+</footer>

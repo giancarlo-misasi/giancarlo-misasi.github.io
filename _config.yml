@@ -10,12 +10,9 @@ locale: en-CA
 header:
   avatar: "/assets/images/avatar_giancarlo_misasi.jpg"
   author: "Giancarlo Misasi"
-  bio: "Software Engineer"
-  fun: "pasta making enthusiast"
+  bio: "Software Development Engineer"
+  location: "North Vancouver, BC, Canada"
   links:
-    - label: "North Vancouver, BC, Canada"
-      icon: "fas fa-fw fa-map-marker-alt"
-      url: "https://goo.gl/maps/L6U4ecdbBuNpZym66"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "https://linkedin.com/in/giancarlo-misasi"
@@ -44,8 +41,3 @@ plugins:
 # GitHub configuration
 github: [metadata]
 github_username: giancarlo-misasi
-
-# Collections
-collections:
-  - home
-  - pages

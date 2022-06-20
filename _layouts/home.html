@@ -1,9 +1,0 @@
----
-layout: default
----
-
-{% include splash.html %}
-{% assign ordered = site.home | sort: "title" | reverse %}
-{% for section in ordered %}
-    {{ section }}
-{% endfor %}

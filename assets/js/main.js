@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     var params = {
         canvasId: "splash",
         backgroundColor: "#000000",
