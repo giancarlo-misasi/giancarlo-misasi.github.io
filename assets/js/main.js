@@ -17,4 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     };
     xhr.send();
+
+    // Setup smooth scrolling
+    new SweetScroll({ });
 });

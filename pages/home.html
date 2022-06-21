@@ -8,9 +8,17 @@ permalink: /
     <canvas id="splash"></canvas>
     <div class="author">
         <!-- How can I use &nbsp; in Jekyll? -->
-        <h1><!--{{ site.giancarlo.name }} --> Giancarlo&nbsp;Misasi</h1>
-        <h2><!--{{ site.giancarlo.title }} --> SOFTWARE&nbsp;DEVELOPMENT&nbsp;ENGINEER</h2>
-        <h3>{{ site.giancarlo.location }}</h3>
+        <h1>
+            Giancarlo&nbsp;Misasi
+        </h1>
+        <h2>
+            SOFTWARE&nbsp;DEVELOPMENT&nbsp;ENGINEER
+        </h2>
+        <h3>
+            <i class="fab fa-canadian-maple-leaf" style="color: red;"></i>
+            &nbsp;North&nbsp;Vancouver, BC&nbsp;
+            <i class="fab fa-canadian-maple-leaf" style="color: red;"></i>
+        </h3>
         <div class="links-container">
             {% include links.html show_label=false links=site.giancarlo.links %}
         </div>
@@ -20,16 +28,29 @@ permalink: /
     </a>
 </div>
 
-<section id="about" class="container section">
-    <div class="row">
-        <div class="eight columns">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a sapien in lorem faucibus mattis quis quis lorem. Sed rutrum justo at turpis mattis fermentum. Nunc et urna justo. Nunc consectetur libero eu tincidunt dapibus. Mauris euismod vehicula risus in luctus. Aliquam porta sagittis ligula sit amet suscipit. Ut quis erat quis massa eleifend molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla vehicula in magna vitae porta. Curabitur fringilla auctor pellentesque. Aliquam vel vulputate elit. Nunc nisi nibh, tempus id nunc nec, blandit hendrerit dui.
-                Donec id tortor ultrices, semper libero non, pellentesque lorem. Praesent tincidunt nisi in sagittis euismod.
-            </p>
-        </div>
-        <div class="four columns">
-            <img class="u-max-full-width shadow-image" src="/assets/images/avatar.webp">
+<section id="about" class="background1" data-scroll>
+    <div class="container">
+        <div class="row">
+            <div class="eight columns">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a sapien in lorem faucibus mattis quis
+                    quis lorem. Sed rutrum justo at turpis mattis fermentum. Nunc et urna justo. Nunc consectetur libero
+                    eu tincidunt dapibus. Mauris euismod vehicula risus in luctus. Aliquam porta sagittis ligula sit
+                    amet suscipit. Ut quis erat quis massa eleifend molestie. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus. Nulla vehicula in magna vitae porta. Curabitur fringilla auctor pellentesque.
+                    Aliquam vel vulputate elit. Nunc nisi nibh, tempus id nunc nec, blandit hendrerit dui.
+                    Donec id tortor ultrices, semper libero non, pellentesque lorem. Praesent tincidunt nisi in sagittis
+                    euismod.
+                </p>
+            </div>
+            <div class="four columns">
+                <img class="u-max-full-width shadow" src="/assets/images/avatar.webp">
+            </div>
         </div>
     </div>
+</section>
+
+<section id="devicons" class="background2 shadow" data-scroll>
+    {% include devicons.html %}
 </section>

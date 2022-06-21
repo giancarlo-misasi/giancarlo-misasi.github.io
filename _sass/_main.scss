@@ -23,7 +23,7 @@ a:hover {
     color: #ADFF2F; //#289b24;
 }
 
-.section {
+section {
     padding: 10rem 0 10rem;
     text-align: center;
 }
@@ -43,6 +43,8 @@ a:hover {
 .splash {
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
+    vertical-align: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -51,7 +53,7 @@ a:hover {
     background-image: url('/assets/images/splash_3840.webp');
 
     canvas {
-        display: flex;
+        height: 100vh !important;
         opacity: 0.35;
     }
 }
@@ -123,7 +125,21 @@ a:hover {
     -webkit-animation: pulse 1.3s infinite;
 }
 
-.shadow-image {
+#devicons svg {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.background1 {
+    background-color: #FAF9F6;
+}
+
+.background2 {
+    background-color: #F9F6EE;
+}
+
+.shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
