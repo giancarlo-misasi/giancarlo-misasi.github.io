@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1600px) {
+  .splash {
+      background-image: url('/assets/images/splash_1920.webp');
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .splash {
+      background-image: url('/assets/images/splash_1280.webp');
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .author {
+      h1 {
+          font-size: 4rem;
+      }
+
+      h2 {
+          font-size: 2rem;
+      }
+
+      h3 {
+          font-size: 1rem;
+      }
+
+      .link {
+          font-size: 2rem;
+      }
+  }
+}

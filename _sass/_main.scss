@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&text=Giancarlo+Misasi');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&text=SOFTWARE+DEVELOPMENT+ENGINEER');
 
 
 body {
@@ -37,6 +37,7 @@ a:hover {
 
 .link {
     margin: 4px;
+    font-style: normal;
 }
 
 .splash {
@@ -47,7 +48,7 @@ a:hover {
     background-attachment: fixed;
     background-position: bottom;
     background-color: #272822;
-    background-image: url('/assets/images/splash.webp');
+    background-image: url('/assets/images/splash_3840.webp');
 
     canvas {
         display: flex;
@@ -80,7 +81,6 @@ a:hover {
     h2 {
         font-weight: 900;
         font-family: 'Indie Flower', 'Helvetica Neue', Helvetica, Arial, serif;
-        text-transform: uppercase;
         font-size: 3rem;
     }
 
@@ -92,30 +92,6 @@ a:hover {
     .link {
         font-size: 3rem;
     }
-}
-
-@media only screen and (max-width: 500px) {
-    .author {
-        h1 {
-            font-size: 4rem;
-        }
-
-        h2 {
-            font-size: 2rem;
-        }
-
-        h3 {
-            font-size: 1rem;
-        }
-
-        .link {
-            font-size: 2rem;
-        }
-    }
-}
-
-.highlighted-image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer {
@@ -145,6 +121,10 @@ a:hover {
     font-size: 3rem;
     animation: pulse 1.3s infinite;
     -webkit-animation: pulse 1.3s infinite;
+}
+
+.shadow-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes pulse {
