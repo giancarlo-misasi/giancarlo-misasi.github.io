@@ -41,24 +41,25 @@ a:hover {
     }
 }
 
-.icon-4 {
-    font-size: 4rem;
+span.icon-4 {
+    // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    i {
+        background-color: #FAF9F6;
+        font-size: 4rem;
+    }
 }
 
 .background1 {
     background-color: #FAF9F6;
+    box-shadow: inset 0px 4px 6px #888, inset 0px -4px 6px #888;
 }
 
 .background2 {
-    background-color: #F9F6EE;
+    background-color: #478778;
 }
 
 .shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.inset-shadow {
-    box-shadow: inset 0px 4px 6px #888, inset 0px -4px 6px #888;
 }
 
 section {
@@ -74,10 +75,11 @@ section {
     padding: 0 5rem;
 }
 
-.left-pad {
-    padding-left: 5rem;
-}
+@media screen and (min-width: 48em) {
 
-.right-pad {
-    padding-right: 5rem;
+    // 768px
+    .pad-md-right {
+        padding-left: 0;
+        padding-right: 5rem;
+    }
 }

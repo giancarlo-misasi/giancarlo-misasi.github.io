@@ -40,7 +40,7 @@ stylesheets:
         - gh/devicons/devicon@2.15.1/devicon.min.css # combine breaks due to relative paths
     - url: /
       files:
-        - assets/css/main.css
+        - assets/css/defer.css
 
 # Scripts
 scripts:

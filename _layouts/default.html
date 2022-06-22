@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+
 <head>
     <!-- Title -->
     <title>{{ page.title }} | {{ site.title }}</title>
-    
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,24 +13,28 @@
 
     <!-- Fonts -->
     {% for i in site.fonts.combine %}
-    <link rel="stylesheet" href="{{ i.url }}{{ i.families | join: '|' }}&text={{ i.text }}" />
+    <link rel="stylesheet" href="{{ i.url }}{{ i.families | join: '|' }}&text={{ i.text }}" media="print" onload="this.media='all'; this.onload=null;" />
     {% endfor %}
 
     <!-- Stylesheets: Combine -->
     {% for i in site.stylesheets.combine %}
-    <link rel="stylesheet" href="{{ i.url }}{{ i.files | join: ',' }}" />
+    <link rel="stylesheet" href="{{ i.url }}{{ i.files | join: ',' }}" media="print" onload="this.media='all'; this.onload=null;" />
     {% endfor %}
 
     <!-- Stylesheets: Single -->
     {% for i in site.stylesheets.single %}
     {% for j in i.files %}
-    <link rel="stylesheet" href="{{ i.url }}{{ j }}" />
+    <link rel="stylesheet" href="{{ i.url }}{{ j }}" media="print" onload="this.media='all'; this.onload=null;" />
     {% endfor %}
     {% endfor %}
+
+    <!-- Main inline stylesheet -->
+    <link rel="stylesheet" href="/assets/css/inline.css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon.ico' }}">
 </head>
+
 <body>
     <!-- Content -->
     {{ content }}
@@ -48,8 +53,9 @@
     <!-- Scripts -->
     {% for i in site.scripts.single %}
     {% for j in i.files %}
-    <script src="{{ i.url }}{{ j }}"></script>
+    <script src="{{ i.url }}{{ j }}" defer></script>
     {% endfor %}
     {% endfor %}
 </body>
+
 </html>

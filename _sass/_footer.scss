@@ -1,8 +1,14 @@
 .footer {
   width: 100%;
-  background-color: #40826D;
-  color: #FFFFFF;
+  padding: 1rem 0;
+  background-color: #FAF9F6;
+  color: #272822;
   text-align: center;
+  box-shadow: inset 0px 4px 6px #888;
+
+  a {
+    color: #272822;
+  }
 
   .links-container {
     a {
