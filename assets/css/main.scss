@@ -3,5 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import "fonts";
 @import "main";
-@import "media";
+@import "splash";
+@import "footer";

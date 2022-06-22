@@ -14,6 +14,45 @@ github_username: giancarlo-misasi
 sass:
     style: compressed
 
+# Fonts
+fonts:
+  combine:
+    - url: https://fonts.googleapis.com/css?family=
+      families:
+        - Montserrat
+        - Dosis
+        - Antic Slab
+      text: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+# Stylesheets
+stylesheets:
+  combine:
+    - url: https://cdn.jsdelivr.net/combine/
+      files:
+        - npm/normalize.css@8.0.1/normalize.min.css
+        - npm/purecss@2.1.0/build/base-min.css
+        - npm/purecss@2.1.0/build/grids-min.css
+        - npm/purecss@2.1.0/build/grids-responsive-min.css
+        - npm/@splidejs/splide@4.0.7/dist/css/splide.min.css
+  single:
+    - url: https://cdn.jsdelivr.net/
+      files:
+        - gh/devicons/devicon@2.15.1/devicon.min.css # combine breaks due to relative paths
+    - url: /
+      files:
+        - assets/css/main.css
+
+# Scripts
+scripts:
+  single:
+    - url: https://cdn.jsdelivr.net/
+      files:
+        - npm/@splidejs/splide@4.0.7/dist/js/splide.min.js
+    - url: /
+      files:
+        - assets/js/sentence-scroller.min.js
+        - assets/js/main.js
+
 # Data
 giancarlo:
   avatar: "/assets/images/avatar_giancarlo_misasi.jpg"
@@ -21,20 +60,54 @@ giancarlo:
   title: Software Development Engineer
   location: North Vancouver, BC, Canada
   links:
-    - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
-      url: "https://linkedin.com/in/giancarlo-misasi"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/giancarlo-misasi?tab=repositories"
-
-footer:
-  links:
-    - label: "Feed"
-      icon: "fa-solid fa-rss"
-      url: "/feed.xml"
-
-# Plugins
-plugins:
-  - jekyll-include-cache
-  - jekyll-feed
+    - label: LinkedIn
+      icon: devicon-linkedin-plain
+      url: https://linkedin.com/in/giancarlo-misasi
+    - label: GitHub
+      icon: devicon-github-original
+      url: https://github.com/giancarlo-misasi?tab=repositories
+  languages:
+    - label: java
+      icon: devicon-java-plain colored
+    - label: java
+      icon: devicon-java-plain colored
+    - label: kotlin
+      icon: devicon-kotlin-plain colored
+    - label: cplusplus
+      icon: devicon-cplusplus-plain colored
+    - label: csharp
+      icon: devicon-csharp-plain colored
+    - label: lua
+      icon: devicon-lua-plain colored
+    - label: javascript
+      icon: devicon-javascript-plain colored
+    - label: typescript
+      icon: devicon-typescript-plain colored
+    - label: postgresql
+      icon: devicon-postgresql-plain colored
+    - label: scala
+      icon: devicon-scala-plain colored
+    - label: bash
+      icon: devicon-bash-plain colored
+  sdks:
+    - label: aws
+      icon: devicon-amazonwebservices-original colored
+    - label: android
+      icon: devicon-android-plain colored
+    - label: raspberry pi
+      icon: devicon-raspberrypi-line colored
+    - label: opengl
+      icon: devicon-opengl-plain colored
+  tooling:
+    - label: vscode
+      icon: devicon-vscode-plain colored
+    - label: intellij
+      icon: devicon-intellij-plain colored
+    - label: vim
+      icon: devicon-vim-plain colored
+    - label: git
+      icon: devicon-git-plain colored
+    - label: gradle
+      icon: devicon-gradle-plain colored
+    - label: cmake
+      icon: devicon-cmake-plain colored

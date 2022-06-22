@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&text=Giancarlo+Misasi');
-@import url('https://fonts.googleapis.com/css?family=Dosis&text=SOFTWARE+DEVELOPMENT+ENGINEER');
-// Indie+Flower
-
-
 body {
     background-color: #FAF9F6;
     color: #272822;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 1rem;
 }
 
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-    font-size: 2rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 a {
@@ -21,12 +22,12 @@ a {
 
 a:active,
 a:hover {
-    color: #ADFF2F; //#289b24;
+    color: #ADFF2F;
 }
 
-section {
-    padding: 10rem 0 10rem;
-    text-align: center;
+.responsive-image {
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .links-container {
@@ -34,102 +35,14 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
 
-.link {
-    margin: 4px;
-    font-style: normal;
-}
-
-.splash {
-    min-height: 100vh;
-    overflow: hidden;
-    display: flex;
-    vertical-align: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom;
-    background-color: #272822;
-    background-image: url('/assets/images/splash_3840.webp');
-
-    canvas {
-        height: 100vh !important;
-        opacity: 0.35;
+    a {
+        margin: 0.25em;
     }
 }
 
-.author {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    margin: 0 auto;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
-    text-shadow: 0px 0px 20px #272822;
-    color: #FFFAF0;
-
-    h1,
-    h2,
-    h3 {
-        margin: 0;
-    }
-
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        // font-weight: 900;
-        font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, serif;
-        font-size: 3rem;
-    }
-
-    h3 {
-        font-style: italic;
-        font-size: 1.5rem;
-    }
-
-    .link {
-        font-size: 3rem;
-    }
-}
-
-.footer {
-    width: 100%;
-    background-color: #272822;
-    color: #FFFFFF;
-    text-align: center;
-
-    .copyright {
-        font-size: 1.5rem;
-    }
-}
-
-.down {
-    display: block;
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    bottom: 0;
-    border: none !important;
-    text-align: right;
-    cursor: pointer;
-}
-
-.down i {
-    margin-right: 1.5rem;
-    font-size: 3rem;
-    animation: pulse 1.3s infinite;
-    -webkit-animation: pulse 1.3s infinite;
-}
-
-#devicons svg {
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+.icon-4 {
+    font-size: 4rem;
 }
 
 .background1 {
@@ -144,16 +57,27 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@keyframes pulse {
-    0% {
-        transform: scaleY(0.8);
-    }
+.inset-shadow {
+    box-shadow: inset 0px 4px 6px #888, inset 0px -4px 6px #888;
+}
 
-    50% {
-        transform: scaleY(1);
-    }
+section {
+    padding: 5rem 0 5rem;
+    text-align: center;
+}
 
-    100% {
-        transform: scaleY(0.8);
-    }
+.center {
+    margin: 0 auto;
+}
+
+.pad {
+    padding: 0 5rem;
+}
+
+.left-pad {
+    padding-left: 5rem;
+}
+
+.right-pad {
+    padding-right: 5rem;
 }
