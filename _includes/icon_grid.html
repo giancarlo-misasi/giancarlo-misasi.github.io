@@ -1,0 +1,12 @@
+<div class="pure-g">
+  <div class="pure-u-1 center">
+    {% for i in include.items %}
+    {% assign remainder = forloop.index | modulo: include.count_per_row %}
+    <i class="{{ i.icon }} icon-4"></i>
+    {% if remainder == 0 %}
+  </div>
+  <div class="pure-u-1 center">
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

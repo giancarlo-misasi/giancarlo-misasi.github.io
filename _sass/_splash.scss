@@ -10,6 +10,15 @@
   background-image: url('/assets/images/splash_3840.webp');
   min-height: 100vh;
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      margin: 0;
+  }
+
   canvas {
     opacity: 0.35;
     height: 100vh !important;

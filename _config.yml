@@ -33,7 +33,7 @@ stylesheets:
         - npm/purecss@2.1.0/build/base-min.css
         - npm/purecss@2.1.0/build/grids-min.css
         - npm/purecss@2.1.0/build/grids-responsive-min.css
-        - npm/@splidejs/splide@4.0.7/dist/css/splide.min.css
+        # - npm/@splidejs/splide@4.0.7/dist/css/splide.min.css
   single:
     - url: https://cdn.jsdelivr.net/
       files:
@@ -45,9 +45,9 @@ stylesheets:
 # Scripts
 scripts:
   single:
-    - url: https://cdn.jsdelivr.net/
-      files:
-        - npm/@splidejs/splide@4.0.7/dist/js/splide.min.js
+    # - url: https://cdn.jsdelivr.net/
+    #   files:
+    #     - npm/@splidejs/splide@4.0.7/dist/js/splide.min.js
     - url: /
       files:
         - assets/js/sentence-scroller.min.js
@@ -66,29 +66,38 @@ giancarlo:
     - label: GitHub
       icon: devicon-github-original
       url: https://github.com/giancarlo-misasi?tab=repositories
+  daily:
+    - label: java
+      icon: devicon-java-plain colored    
+    - label: aws
+      icon: devicon-amazonwebservices-original colored
+    - label: vscode
+      icon: devicon-vscode-plain colored
+    - label: intellij
+      icon: devicon-intellij-plain colored
+    - label: vim
+      icon: devicon-vim-plain colored
+    - label: git
+      icon: devicon-git-plain colored
   languages:
     - label: java
       icon: devicon-java-plain colored
-    - label: java
-      icon: devicon-java-plain colored
-    - label: kotlin
-      icon: devicon-kotlin-plain colored
     - label: cplusplus
       icon: devicon-cplusplus-plain colored
     - label: csharp
       icon: devicon-csharp-plain colored
+    - label: kotlin
+      icon: devicon-kotlin-plain colored
+    - label: scala
+      icon: devicon-scala-plain colored
+    - label: postgresql
+      icon: devicon-postgresql-plain colored
     - label: lua
       icon: devicon-lua-plain colored
     - label: javascript
       icon: devicon-javascript-plain colored
     - label: typescript
       icon: devicon-typescript-plain colored
-    - label: postgresql
-      icon: devicon-postgresql-plain colored
-    - label: scala
-      icon: devicon-scala-plain colored
-    - label: bash
-      icon: devicon-bash-plain colored
   sdks:
     - label: aws
       icon: devicon-amazonwebservices-original colored
@@ -98,6 +107,12 @@ giancarlo:
       icon: devicon-raspberrypi-line colored
     - label: opengl
       icon: devicon-opengl-plain colored
+    - label: angularjs
+      icon: devicon-angularjs-plain colored
+    - label: .net
+      icon: devicon-dot-net-plain colored
+    - label: jquery
+      icon: devicon-jquery-plain colored
   tooling:
     - label: vscode
       icon: devicon-vscode-plain colored
@@ -111,3 +126,9 @@ giancarlo:
       icon: devicon-gradle-plain colored
     - label: cmake
       icon: devicon-cmake-plain colored
+    - label: npm
+      icon: devicon-npm-original-wordmark colored
+    - label: nodejs
+      icon: devicon-nodejs-plain colored
+    - label: ssh
+      icon: devicon-ssh-original-wordmark colored

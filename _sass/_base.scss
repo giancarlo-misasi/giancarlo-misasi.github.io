@@ -5,15 +5,6 @@ body {
     font-size: 1rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
 a {
     font-weight: 900;
     text-decoration: none;
@@ -21,7 +12,11 @@ a {
 }
 
 a:active,
-a:hover {
+a:hover,
+.links-container a:active,
+.links-container a:hover,
+.copyright a:active,
+.copyright a:hover {
     color: #ADFF2F;
 }
 
@@ -41,12 +36,15 @@ a:hover {
     }
 }
 
-span.icon-4 {
-    // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    i {
-        background-color: #FAF9F6;
-        font-size: 4rem;
-    }
+.icon-4 {
+    display: inline-block;
+    background-color: #FFFFF0; //#5F9EA0;
+    font-size: 3rem;
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
 }
 
 .background1 {
@@ -56,6 +54,7 @@ span.icon-4 {
 
 .background2 {
     background-color: #478778;
+    color: #FAF9F6;
 }
 
 .shadow {
