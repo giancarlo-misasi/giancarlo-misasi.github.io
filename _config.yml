@@ -35,7 +35,8 @@ stylesheets:
   single:
     - url: https://cdn.jsdelivr.net/
       files:
-        - gh/devicons/devicon@2.15.1/devicon.min.css # combine breaks due to relative paths
+        - npm/@fortawesome/fontawesome-free@6.1.1/css/brands.min.css
+        # - gh/devicons/devicon@2.15.1/devicon.min.css # combine breaks due to relative paths
 
 # Scripts
 scripts:
@@ -53,60 +54,58 @@ giancarlo:
   location: North Vancouver, BC, Canada
   links:
     - label: LinkedIn
-      icon: devicon-linkedin-plain
+      icon: fa-brands fa-linkedin
       url: https://linkedin.com/in/giancarlo-misasi
     - label: GitHub
-      icon: devicon-github-original
+      icon: fa-brands fa-github
       url: https://github.com/giancarlo-misasi?tab=repositories
-  tech:
-    - label: java
-      icon: devicon-java-plain colored
-    - label: aws
-      icon: devicon-amazonwebservices-original colored
-    - label: cplusplus
-      icon: devicon-cplusplus-plain colored
-    - label: kotlin
-      icon: devicon-kotlin-plain colored
-    - label: raspberry pi
-      icon: devicon-raspberrypi-line colored
 
-    # - label: intellij
-    #   icon: devicon-intellij-plain colored
-    # - label: vim
-    #   icon: devicon-vim-plain colored
-    # - label: vscode
-    #   icon: devicon-vscode-plain colored
-    # - label: git
-    #   icon: devicon-git-plain colored
-    # - label: npm
-    #   icon: devicon-npm-original-wordmark colored
-    # - label: nodejs
-    #   icon: devicon-nodejs-plain colored
-    # - label: gradle
-    #   icon: devicon-gradle-plain colored
-    # - label: cmake
-    #   icon: devicon-cmake-plain colored
-    # - label: csharp
-    #   icon: devicon-csharp-plain colored
-    # - label: scala
-    #   icon: devicon-scala-plain colored
-    # - label: postgresql
-    #   icon: devicon-postgresql-plain colored
-    # - label: javascript
-    #   icon: devicon-javascript-plain colored
-    # - label: typescript
-    #   icon: devicon-typescript-plain colored
-    # - label: android
-    #   icon: devicon-android-plain colored
-    # - label: raspberry pi
-    #   icon: devicon-raspberrypi-line colored
-    # - label: opengl
-    #   icon: devicon-opengl-plain colored
-    # - label: angularjs
-    #   icon: devicon-angularjs-plain colored
-    # - label: .net
-    #   icon: devicon-dot-net-plain colored
-    # - label: jquery
-    #   icon: devicon-jquery-plain colored
-
-
+  # tech:
+  #   - label: java
+  #     icon: devicon-java-plain colored
+  #   - label: aws
+  #     icon: devicon-amazonwebservices-original colored
+  #   - label: cplusplus
+  #     icon: devicon-cplusplus-plain colored
+  #   - label: kotlin
+  #     icon: devicon-kotlin-plain colored
+  #   - label: raspberry pi
+  #     icon: devicon-raspberrypi-line colored
+  #   - label: intellij
+  #     icon: devicon-intellij-plain colored
+  #   - label: vim
+  #     icon: devicon-vim-plain colored
+  #   - label: vscode
+  #     icon: devicon-vscode-plain colored
+  #   - label: git
+  #     icon: devicon-git-plain colored
+  #   - label: npm
+  #     icon: devicon-npm-original-wordmark colored
+  #   - label: nodejs
+  #     icon: devicon-nodejs-plain colored
+  #   - label: gradle
+  #     icon: devicon-gradle-plain colored
+  #   - label: cmake
+  #     icon: devicon-cmake-plain colored
+  #   - label: csharp
+  #     icon: devicon-csharp-plain colored
+  #   - label: scala
+  #     icon: devicon-scala-plain colored
+  #   - label: postgresql
+  #     icon: devicon-postgresql-plain colored
+  #   - label: javascript
+  #     icon: devicon-javascript-plain colored
+  #   - label: typescript
+  #     icon: devicon-typescript-plain colored
+  #   - label: android
+  #     icon: devicon-android-plain colored
+  #   - label: raspberry pi
+  #     icon: devicon-raspberrypi-line colored
+  #   - label: opengl
+  #     icon: devicon-opengl-plain colored
+  #   - label: angularjs
+  #     icon: devicon-angularjs-plain colored
+  #   - label: .net
+  #     icon: devicon-dot-net-plain colored
+  #   - label: jquery
+  #     icon: devicon-jquery-plain colored
