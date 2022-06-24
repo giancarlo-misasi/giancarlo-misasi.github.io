@@ -17,11 +17,10 @@ sass:
 # Fonts
 fonts:
   combine:
-    - url: https://fonts.googleapis.com/css?family=
+    - url: https://fonts.googleapis.com/css?display=swap&family=
       families:
         - Montserrat
         - Dosis
-        - Antic Slab
       text: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 
 # Stylesheets
@@ -33,7 +32,6 @@ stylesheets:
         - npm/purecss@2.1.0/build/base-min.css
         - npm/purecss@2.1.0/build/grids-min.css
         - npm/purecss@2.1.0/build/grids-responsive-min.css
-        # - npm/@splidejs/splide@4.0.7/dist/css/splide.min.css
   single:
     - url: https://cdn.jsdelivr.net/
       files:
@@ -42,13 +40,10 @@ stylesheets:
 # Scripts
 scripts:
   single:
-    # - url: https://cdn.jsdelivr.net/
-    #   files:
-    #     - npm/@splidejs/splide@4.0.7/dist/js/splide.min.js
     - url: /
       files:
         - assets/js/sentence-scroller.min.js
-        - assets/js/main.js
+        - assets/js/main.min.js
 
 # Data
 giancarlo:

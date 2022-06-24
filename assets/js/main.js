@@ -8,14 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     color: "#FFFFFF"
   };
 
-  var carousel_params = {
-    type: 'loop',
-    perPage: 3,
-    autoplay: true,
-    interval: 3000
-    // arrows: false
-  };
-
   // Load senteces and start the animation
   var xhr = new XMLHttpRequest();
   xhr.open('GET', sentence_params.json_file);
@@ -26,14 +18,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
   xhr.send();
-
-  // Setup carousel
-  var splides = document.querySelectorAll('.splide');
-  if (splides.length) {
-    for (var i = 0; i < splides.length; ++i) {
-      var splideElement = splides[i];
-      var splide = new Splide(splideElement, carousel_params);
-      splide.mount();
-    }
-  }
 });
