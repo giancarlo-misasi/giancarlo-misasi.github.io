@@ -15,7 +15,7 @@ permalink: /
             SOFTWARE&nbsp;DEVELOPMENT&nbsp;ENGINEER
         </h2>
         <h3>
-            {% include leaf.html %}&nbsp;North&nbsp;Vancouver, BC&nbsp;{% include leaf.html %}
+            {% include leaf.html %}&nbsp;North&nbsp;Vancouver, BC&nbsp;&nbsp;{% include leaf.html %}
         </h3>
         <div class="links-container">
             {% include links.html show_label=false links=site.giancarlo.links %}
@@ -26,60 +26,37 @@ permalink: /
     </a>
 </div>
 
-<section id="about" class="background1">
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-2-3">
-            <div class="pad">
-                <h2>About me</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a sapien in lorem faucibus mattis quis
-                    quis lorem. Sed rutrum justo at turpis mattis fermentum. Nunc et urna justo. Nunc consectetur libero
-                    eu tincidunt dapibus. Mauris euismod vehicula risus in luctus. Aliquam porta sagittis ligula sit
-                    amet suscipit. Ut quis erat quis massa eleifend molestie. Class aptent taciti sociosqu ad litora
-                    torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus. Nulla vehicula in magna vitae porta. Curabitur fringilla auctor pellentesque.
-                    Aliquam vel vulputate elit. Nunc nisi nibh, tempus id nunc nec, blandit hendrerit dui.
-                </p>
+<section id="about" class="background1 font-dosis">
+    <div class="content">
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-3">
+                <img class="responsive-image shadow" src="/assets/images/avatar_480.webp">
+                <!-- {% include icon_grid.html items=site.giancarlo.tech count_per_row=5 %} -->
             </div>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-3">
-            <div class="pad pad-md-right">
-                <img class="responsive-image shadow" src="/assets/images/avatar.webp">
+            <div class="pure-u-1 pure-u-md-2-3">
+                <div class="margin-left">
+                    <h1 class="first-header">Hey, I'm Giancarlo</h1>
+                    <h2>I'm currently a Software Engineer at Amazon.</h2>
+                    <p>
+                        I love to build things! In the last ten years I've worked on a lot of projects...
+                        automated teller machines, school bus routing, field trip planning,
+                        and most recently large scale applications and web services using AWS technologies.
+                    </p>
+                    <p>
+                        I am a full-stack developer with a preference to work on the back-end,
+                        optimizing algorithms and implementing awesome design patterns.
+                        Through my open communication style, hard work ethic, and relentless
+                        focus on driving best practices, I earn the trust of my team and colleagues.
+                    </p>
+                    <p>
+                        In my spare time, I've built game engines, Android apps, and lately I have
+                        been experimenting with using Raspberry Pi Pico's for home automation projects.
+                    </p>
+                    <p>
+                        Whenever I've wanted a program to do something that doesn't exist, I build it.
+                    </p>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-<section id="tech-background" class="background2">
-    <div class="pure-g">
-        <div class="pure-u-1 center">
-            <h1 class="font-antic-slab">Primary</h1>
-            {% include icon_grid.html items=site.giancarlo.daily count_per_row=4 %}
-            <p>
-                I'm using these everyday...
-            </p>
-        </div>
-    </div>
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <h1 class="font-antic-slab">Languages</h1>
-            {% include icon_grid.html items=site.giancarlo.languages count_per_row=4 %}
-            <p>
-                It's fun to learn new languages!
-            </p>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <h1 class="font-antic-slab">SDKs</h1>
-            {% include icon_grid.html items=site.giancarlo.sdks count_per_row=4 %}
-            <p>
-                A good SDK is like a good sandwhich...
-            </p>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 center">
-            <h1 class="font-antic-slab">Tools</h1>
-            {% include icon_grid.html items=site.giancarlo.tooling count_per_row=4 %}
-            <p>
-                I don't know what I would do without these tools...
-            </p>
         </div>
     </div>
 </section>

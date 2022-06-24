@@ -1,11 +1,108 @@
-.font-montserrat {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
-}
-
-.font-dosis {
+h1, h2, h3, p {
   font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
-.font-antic-slab {
-  font-family: 'Antic Slab', 'Helvetica Neue', Helvetica, Arial, serif;
+h1, a {
+  font-size: 1.75rem;
+}
+
+h2 {  
+  font-size: 0.9rem;
+}
+
+h3, p {
+  font-size: 0.75rem;
+
+  svg {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 18em) {
+  h1, a {
+    font-size: 2rem;
+  }
+  
+  h2 {  
+    font-size: 1rem;
+  }
+
+  h3, p {
+    font-size: 0.9rem;
+  
+    svg {
+      width: 0.9rem;
+      height: 0.9rem;
+    }
+  }
+}
+
+@media screen and (min-width: 27em) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {  
+    font-size: 1.5rem;
+  }
+  
+  h3, p {
+    font-size: 1.25rem;
+  
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+  }
+
+  a {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 36em) {
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {  
+    font-size: 2rem;
+  }
+  
+  h3, p {
+    font-size: 1.5rem;
+  
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  a {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {  
+    font-size: 2.5rem;
+  }
+  
+  h3, p {
+    font-size: 1.75rem;
+
+    svg {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+
+  a {
+    font-size: 3.5rem;
+  }
 }

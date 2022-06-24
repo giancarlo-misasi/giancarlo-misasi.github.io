@@ -1,10 +1,10 @@
 .footer {
   width: 100%;
   padding: 1rem 0;
-  background-color: #FAF9F6;
+  background-color: #478778;
   color: #272822;
   text-align: center;
-  box-shadow: inset 0px 4px 6px #888;
+  // box-shadow: 0px 4px 6px #888;
 
   a {
     color: #272822;
@@ -12,11 +12,15 @@
 
   .links-container {
     a {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
 
   .copyright {
-      font-size: 1rem;
+      font-size: 1.5rem;
+
+      a {
+        font-size: 1.5rem;
+      }
   }
 }
