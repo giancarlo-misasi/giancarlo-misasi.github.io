@@ -2,13 +2,12 @@ body {
     background-color: #FAF9F6;
     color: #272822;
     font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-    font-size: 1rem;
 }
 
 a {
     font-weight: 900;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FAF9F6;
 }
 
 a:active,
@@ -22,6 +21,7 @@ a:hover,
 
 .responsive-image {
     max-width: 100%;
+    height: auto;
     box-sizing: border-box;
 }
 

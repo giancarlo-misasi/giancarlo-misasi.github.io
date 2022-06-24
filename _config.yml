@@ -38,9 +38,6 @@ stylesheets:
     - url: https://cdn.jsdelivr.net/
       files:
         - gh/devicons/devicon@2.15.1/devicon.min.css # combine breaks due to relative paths
-    - url: /
-      files:
-        - assets/css/defer.css
 
 # Scripts
 scripts:

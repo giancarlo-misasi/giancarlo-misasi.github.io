@@ -13,7 +13,7 @@
 
     <!-- Fonts -->
     {% for i in site.fonts.combine %}
-    <link rel="stylesheet" href="{{ i.url }}{{ i.families | join: '|' }}&text={{ i.text }}" media="print" onload="this.media='all'; this.onload=null;" />
+    <link rel="stylesheet" href="{{ i.url }}{{ i.families | join: '|' }}&display=swap&text={{ i.text }}" media="print" onload="this.media='all'; this.onload=null;" />
     {% endfor %}
 
     <!-- Stylesheets: Combine -->
