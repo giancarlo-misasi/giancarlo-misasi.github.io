@@ -29,7 +29,8 @@
     {% endfor %}
 
     <!-- Main inline stylesheet -->
-    <link rel="stylesheet" href="/assets/css/inline.css" />
+    {% capture inline %}{% include inline.scss %}{% endcapture %}
+    <style>{{ inline | scssify }}</style>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon.ico' }}">
